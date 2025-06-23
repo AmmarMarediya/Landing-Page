@@ -49,7 +49,8 @@ A simple and clean **responsive landing page** built using only **HTML** and **C
 
 ### 📱 Mobile View
 
-![Mobile View 1](/Screenshots/mobile1.jpg)  
+![Mobile View 1](/Screenshots/mobile1.jpg) 
+
 ![Mobile View 2](/Screenshots/mobile2.jpg)
 
 ---
