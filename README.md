@@ -18,7 +18,8 @@ A simple and clean **responsive landing page** built using only **HTML** and **C
 - CSS3 (Flexbox, Grid, Media Queries)  
 - Google Fonts  
 - VS Code  
-- Git & GitHub
+- Git & GitHub  
+- GitHub Pages (for live preview)
 
 ---
 
@@ -27,23 +28,31 @@ A simple and clean **responsive landing page** built using only **HTML** and **C
 - ✅ Branding with nav links
 - ✅ Hero section with heading, description, CTA button, and image
 - ✅ Footer with navigation and social media icons
-- ✅ Fully responsive design for mobile and tablet
+- ✅ Fully responsive design for mobile and tablet screens
+
+---
+
+## 🌐 Live Preview
+
+🔗 [Click here to view live](https://ammarmarediya.github.io/Landing-Page/)
 
 ---
 
 ## 📸 Screenshots
 
-> (Add your screenshots in a `screenshots/` folder and link them here)
+### 💻 Desktop View
 
-![Desktop View](desktop1.png)
-![Desktop View](desktop2.png)
-
-
-
-![Mobile View](mobile1.jpg)
-![Mobile View](mobile2.jpg)
+![Desktop View 1](/Screenshots/desktop1.png)  
+![Desktop View 2](/Screenshots/desktop2.png)
 
 ---
 
-## 📂 Folder Structure
+### 📱 Mobile View
+
+![Mobile View 1](/Screenshots/mobile1.jpg)  
+![Mobile View 2](/Screenshots/mobile2.jpg)
+
+---
+
+
 
