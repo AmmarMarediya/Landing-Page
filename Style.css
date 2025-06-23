@@ -1,0 +1,279 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --primary-color: rgb(255, 255, 255);
+    --secondary-color: rgba(255, 255, 255, 0.87);
+    --text-color: black;
+}
+
+nav {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 80px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.branding {
+    display: flex;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.log-sign {
+    display: flex;
+    align-items: center;
+
+}
+
+.log-sign ul {
+
+    display: flex;
+    align-items: center;
+
+    padding: 5px;
+    gap: 20px;
+}
+
+.log-sign ul li:nth-child(2) {
+    background-color: #E87A14;
+    padding: 10px 20px;
+    border-radius: 13px;
+    color: white;
+
+}
+
+nav .links ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav .links ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border: 2px solid black; */
+    width: 90vw;
+    height: auto;
+    margin: 20px auto;
+}
+
+.hero .photo img {
+    /* border: 2px solid rgb(0, 255, 60); */
+    width: auto;
+    height: 56%;
+
+
+}
+
+.hero .photo {
+    /* border: 2px solid rgb(0, 255, 60); */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.hero-content {
+    /* border: 2px solid rgb(255, 0, 0); */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    padding-left: 30px;
+    padding-top: 135px;
+    gap: 15px;
+    height: 50%;
+}
+
+.hero-content P:nth-child(1) {
+    color: #44C3EB;
+    font-size: 20px;
+    font-weight: Bold;
+    font-family: Sans-serif;
+
+}
+
+.hero-content P:nth-child(2) {
+    color: #000000;
+    font-size: 28px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.hero-content button {
+    border: none;
+    padding: 12px 20px;
+    background-color: #E87A14;
+    margin: 20px 0;
+    border-radius: 12px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+
+
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: 300px;
+    row-gap: 34px;
+    background-color: black;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    
+}
+
+.footerlinks ul {
+
+    padding-left: 30px;
+}
+
+.footerlinks ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.socialmedia ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-content {
+    /* border: 2px solid white; */
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+
+
+}
+
+.footerlinks ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.socialmedia ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.socialmedia ul li:nth-child(2) a {
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.socialmedia ul li:nth-child(1) a {
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.socialmedia ul li:nth-child(3) a {
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+footer p {
+    color: white;
+    justify-self: center;
+}
+
+#login {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#signup {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .hero .photo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-content {
+        padding-left: 0;
+        padding-top: 50px;
+        align-items: center;
+    }
+
+    nav .links ul {
+        
+        flex-direction: row;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .log-sign  {
+        
+        margin-top: 20px;
+        margin-right:-140px;
+        
+    }
+    nav{
+    display: flex;
+    flex-wrap:wrap;  
+    justify-content: center;
+    align-items: flex-start;
+   /* border: 2px solid black; */
+   height: 150px;
+    }
+    .branding{
+        margin-top:10px;
+    }
+}
